@@ -1,10 +1,8 @@
 <img src="assets/header.svg" width="100%" alt="Wallace Ad Engine">
 
-<p align="center">
-<a href="briefs/2026-08-13-brief.md"><img src="assets/btn_brief.svg" width="32%" alt="Latest brief"></a>
-<a href="scorecards"><img src="assets/btn_scorecards.svg" width="32%" alt="Scorecards"></a>
-<a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
-</p>
+<a href="briefs/2026-08-13-brief.md"><img src="assets/btn_brief.svg" width="100%" alt="Latest brief"></a>
+<a href="scorecards"><img src="assets/btn_scorecards.svg" width="100%" alt="Scorecards"></a>
+<a href="briefs"><img src="assets/btn_archive.svg" width="100%" alt="Archive"></a>
 
 ![](https://img.shields.io/badge/updated-2026--08--13-0a2240?style=flat-square) ![](https://img.shields.io/badge/recommendations-17-007aff?style=flat-square) ![](https://img.shields.io/badge/rejected-2-8e8e93?style=flat-square) ![](https://img.shields.io/badge/budget%20cap-%241%2C500%2Fmo-34c759?style=flat-square)
 
