@@ -6,7 +6,11 @@
 
 > Verdicts are recommendations only &mdash; no changes are made automatically.
 
-**Menu:** [&#127968; Dashboard](../README.md) &nbsp;|&nbsp; [&#128451;&#65039; Briefs](../briefs) &nbsp;|&nbsp; [&#128202; All scorecards](../scorecards)
+<p align="center">
+<a href="../README.md"><img src="../assets/btn_dashboard.svg" width="32%" alt="Dashboard"></a>
+<a href="../briefs"><img src="../assets/btn_brief.svg" width="32%" alt="Briefs"></a>
+<a href="../scorecards"><img src="../assets/btn_scorecards.svg" width="32%" alt="All scorecards"></a>
+</p>
 
 ---
 
