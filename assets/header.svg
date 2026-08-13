@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1a2d"/>
+      <stop offset="1" stop-color="#0a2240"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <rect y="210" width="1200" height="10" fill="#39a0a5"/>
+  <circle cx="1050" cy="40" r="140" fill="#93a2b5" opacity="0.12"/>
+  <circle cx="1130" cy="170" r="90" fill="#39a0a5" opacity="0.15"/>
+  <text x="60" y="105" font-family="Georgia, serif" font-size="52" fill="#ffffff" font-weight="bold">Wallace Ad Engine</text>
+  <text x="62" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#c9d4d1">Adwerx campaign intelligence &#183; evidence-vetted &#183; human-approved</text>
+</svg>
