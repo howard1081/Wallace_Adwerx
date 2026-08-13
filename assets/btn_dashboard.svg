@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76">
-  <rect x="2" y="2" width="296" height="72" rx="36" fill="#f2f5f7" stroke="#e0e5ea" stroke-width="1.5"/>
-  <path d="M40 36 L54 24 L68 36 L68 52 L58 52 L58 42 L50 42 L50 52 L40 52 Z" fill="#007aff"/>
-  <text x="84" y="47" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0a2240">Dashboard</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="180" viewBox="0 0 1160 180">
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#0a2240" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1160" height="180" fill="#eef1f5"/>
+  <rect x="16" y="10" width="1128" height="158" rx="24" fill="#ffffff" filter="url(#s)"/>
+  <path d="M560 62 L580 44 L600 62 L600 84 L586 84 L586 70 L574 70 L574 84 L560 84 Z" fill="#93a2b5"/>
+  <text x="580" y="122" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0a2240">Dashboard</text>
+  <text x="580" y="152" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#6b7683">This week's plan at a glance.</text>
 </svg>
