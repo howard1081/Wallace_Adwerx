@@ -6,7 +6,7 @@
   </defs>
   <rect width="1200" height="230" fill="#eef1f5"/>
   <rect x="40" y="28" width="1120" height="174" rx="28" fill="#ffffff" filter="url(#s)"/>
-  <path d="M540 84 L560 66 L580 84 L580 104 L567 104 L567 92 L553 92 L553 104 L540 104 Z" fill="#93a2b5"/>
+  <path d="M580 84 L600 66 L620 84 L620 104 L607 104 L607 92 L593 92 L593 104 L580 104 Z" fill="#93a2b5"/>
   <text x="600" y="146" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#0a2240" letter-spacing="-0.5">Wallace Ad Engine</text>
   <text x="600" y="180" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#6b7683">Evidence-vetted Adwerx recommendations &#8226; human-approved</text>
 </svg>
