@@ -1,9 +1,10 @@
 <img src="assets/header.svg" width="100%" alt="Wallace Ad Engine">
 
-## &#127968; Dashboard
-
-| [&#128203; **Latest brief** &rarr;](briefs/2026-08-13-brief.md) | [&#128202; **Scorecards** &rarr;](scorecards) | [&#128451;&#65039; **Brief archive** &rarr;](briefs) |
-|---|---|---|
+<p align="center">
+<a href="briefs/2026-08-13-brief.md"><img src="assets/btn_brief.svg" width="32%" alt="Latest brief"></a>
+<a href="scorecards"><img src="assets/btn_scorecards.svg" width="32%" alt="Scorecards"></a>
+<a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
+</p>
 
 ![](https://img.shields.io/badge/updated-2026--08--13-0a2240?style=flat-square) ![](https://img.shields.io/badge/recommendations-17-39a0a5?style=flat-square) ![](https://img.shields.io/badge/rejected-2-93a2b5?style=flat-square) ![](https://img.shields.io/badge/budget%20cap-%241%2C500%2Fmo-c9d4d1?style=flat-square)
 
