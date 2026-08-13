@@ -6,24 +6,24 @@
 <a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
 </p>
 
-![](https://img.shields.io/badge/updated-2026--08--13-0a2240?style=flat-square) ![](https://img.shields.io/badge/recommendations-17-39a0a5?style=flat-square) ![](https://img.shields.io/badge/rejected-2-93a2b5?style=flat-square) ![](https://img.shields.io/badge/budget%20cap-%241%2C500%2Fmo-c9d4d1?style=flat-square)
+![](https://img.shields.io/badge/updated-2026--08--13-0a2240?style=flat-square) ![](https://img.shields.io/badge/recommendations-17-007aff?style=flat-square) ![](https://img.shields.io/badge/rejected-2-8e8e93?style=flat-square) ![](https://img.shields.io/badge/budget%20cap-%241%2C500%2Fmo-34c759?style=flat-square)
 
 > &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-13-brief.md) and tick each campaign's checkboxes (Reviewed / Launched / Skipped) so everyone can see what's been handled.
 
 ### This week at a glance
 
-| Campaign | Type | Duration |
+| Campaign | Type | Suggested spend |
 |---|---|---|
-| [Wallace - listings saved-search 817651](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - kingston-tn homes](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - by-town powell-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - listing 1254446 1505-duncan-road-knoxville-tn-37919](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - by-town greenback-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - resources luxury-properties](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - by-town louisville-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - by-town talbott-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - by-town oneida-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
-| [Wallace - realestate agent vickie-bailey](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | 90-day test |
+| &#11088; [Wallace - homepage](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$600/mo** |
+| [Wallace - listing 1324201 173-rafter-road-tellico-plains-tn-37385](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$400/mo** |
+| [Wallace - listing 1325783 5401-mill-ridge-drive-knoxville-tn-37919](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$250/mo** |
+| [Wallace - resources commercial](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$150/mo** |
+| [Wallace - contact-us](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$100/mo** |
+| [Wallace - listings saved-search 817651](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
+| [Wallace - kingston-tn homes](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
+| [Wallace - by-town powell-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
+| [Wallace - listing 1254446 1505-duncan-road-knoxville-tn-37919](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
+| [Wallace - by-town greenback-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
 | _...and 7 more_ | | |
 
 ### How this works
