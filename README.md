@@ -12,18 +12,18 @@
 
 ### This week at a glance
 
-| Campaign | Type | Suggested spend |
-|---|---|---|
-| &#11088; [Wallace - homepage](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$600/mo** |
-| [Wallace - listing 1324201 173-rafter-road-tellico-plains-tn-37385](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$400/mo** |
-| [Wallace - listing 1325783 5401-mill-ridge-drive-knoxville-tn-37919](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$250/mo** |
-| [Wallace - resources commercial](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$150/mo** |
-| [Wallace - contact-us](briefs/2026-08-13-brief.md) | Retargeting (site visitors) | **$100/mo** |
-| [Wallace - listings saved-search 817651](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
-| [Wallace - kingston-tn homes](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
-| [Wallace - by-town powell-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
-| [Wallace - listing 1254446 1505-duncan-road-knoxville-tn-37919](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
-| [Wallace - by-town greenback-tn](briefs/2026-08-13-brief.md) | Zip-code / audience targeting | backup |
+| Campaign | Score | Type | Suggested spend |
+|---|---|---|---|
+| &#11088; [Wallace - resources commercial](briefs/2026-08-13-brief.md) | **91**/100 | Retargeting (site visitors) | **$350/mo** |
+| [Wallace - listing 1325783 5401-mill-ridge-drive-knoxville-tn-37919](briefs/2026-08-13-brief.md) | **88**/100 | Retargeting (site visitors) | **$340/mo** |
+| [Wallace - listing 1324201 173-rafter-road-tellico-plains-tn-37385](briefs/2026-08-13-brief.md) | **76**/100 | Retargeting (site visitors) | **$290/mo** |
+| [Wallace - listing 1254446 1505-duncan-road-knoxville-tn-37919](briefs/2026-08-13-brief.md) | **69**/100 | Zip-code / audience targeting | **$260/mo** |
+| [Wallace - by-town louisville-tn](briefs/2026-08-13-brief.md) | **68**/100 | Zip-code / audience targeting | **$260/mo** |
+| [Wallace - by-town oneida-tn](briefs/2026-08-13-brief.md) | **67**/100 | Zip-code / audience targeting | backup |
+| [Wallace - listings saved-search 817651](briefs/2026-08-13-brief.md) | **66**/100 | Zip-code / audience targeting | backup |
+| [Wallace - realestate agent vickie-bailey](briefs/2026-08-13-brief.md) | **64**/100 | Zip-code / audience targeting | backup |
+| [Wallace - gatlinburg-tn condos](briefs/2026-08-13-brief.md) | **63**/100 | Zip-code / audience targeting | backup |
+| [Wallace - homepage](briefs/2026-08-13-brief.md) | **63**/100 | Retargeting (site visitors) | backup |
 | _...and 7 more_ | | |
 
 ### How this works
