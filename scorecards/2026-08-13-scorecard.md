@@ -6,13 +6,9 @@
 
 > Verdicts are recommendations only &mdash; no changes are made automatically.
 
-<p align="center">
-<a href="../README.md"><img src="../assets/btn_dashboard.svg" width="32%" alt="Dashboard"></a>
-<a href="../briefs"><img src="../assets/btn_brief.svg" width="32%" alt="Briefs"></a>
-<a href="../scorecards"><img src="../assets/btn_scorecards.svg" width="32%" alt="All scorecards"></a>
-</p>
-
----
+<a href="../README.md"><img src="../assets/btn_dashboard.svg" width="100%" alt="Dashboard"></a>
+<a href="../briefs"><img src="../assets/btn_brief.svg" width="100%" alt="Briefs"></a>
+<a href="../scorecards"><img src="../assets/btn_scorecards.svg" width="100%" alt="All scorecards"></a>
 
 | Campaign | Sessions (28d) | Leads | Conv rate | Trend | Checkpoint | Verdict |
 |---|---|---|---|---|---|---|
