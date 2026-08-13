@@ -10,6 +10,8 @@
 
 > &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-13-brief.md) and tick each campaign's checkboxes (Reviewed / Launched / Skipped) so everyone can see what's been handled.
 
+![](https://img.shields.io/badge/careers%20lane-%24500%2Fmo%20reserved-39a0a5?style=flat-square) 4 recruiting campaign(s) in the [latest brief](briefs/2026-08-13-brief.md).
+
 ### This week at a glance
 
 | Campaign | Score | Type | Suggested spend |
