@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="72" viewBox="0 0 300 72">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f2b52"/><stop offset="1" stop-color="#0a2240"/></linearGradient></defs>
-  <rect x="1" y="1" width="298" height="70" rx="16" fill="url(#g)" stroke="#39a0a5" stroke-width="2"/>
-  <rect x="30" y="38" width="7" height="14" fill="#ffffff"/><rect x="41" y="30" width="7" height="22" fill="#39a0a5"/><rect x="52" y="22" width="7" height="30" fill="#ffffff"/>
-  <text x="72" y="44" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" letter-spacing="1">SCORECARDS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="76" viewBox="0 0 300 76">
+  <rect x="2" y="2" width="296" height="72" rx="36" fill="#f2f5f7" stroke="#e0e5ea" stroke-width="1.5"/>
+  <rect x="40" y="40" width="7" height="14" rx="2" fill="#8ec9ff"/><rect x="51" y="32" width="7" height="22" rx="2" fill="#007aff"/><rect x="62" y="24" width="7" height="30" rx="2" fill="#0a2240"/>
+  <text x="84" y="47" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#0a2240">Scorecards</text>
 </svg>
