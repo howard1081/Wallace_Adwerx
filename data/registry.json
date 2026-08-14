@@ -19,7 +19,14 @@
     "plannedBudget": "USD/month recommended",
     "actualBudget": "USD/month actually set in Adwerx, or null",
     "status": "proposed | approved | launched | paused | stopped | expired | rejected | superseded",
-    "lifecycle": "proposed reserves budget 7 days, revalidated weekly (renew or expire); approved gets 14-day launch deadline then APPROVAL STALE; rejected/skipped/superseded are permanent history"
+    "lifecycle": "proposed reserves budget 7 days, revalidated weekly (renew or expire); approved gets 14-day launch deadline then APPROVAL STALE; rejected/skipped/superseded are permanent history",
+    "campaignMode": "standard | operational_validation. operational_validation = manual QA override to validate the delivery/attribution/reporting chain, NOT a model-funded recommendation",
+    "modelRecommendation": "the engine's actual verdict at override time (e.g. WATCH) - preserved so the pilot is never presented as a model pick",
+    "manualOverride": "true when a human authorized spend the model did not recommend",
+    "overrideReason": "why the override exists",
+    "approvedBy": "human who authorized the override",
+    "maxBudget": "hard cap for the override expense",
+    "excludedFromScoreCalibration": "true = outcome must never be used to recalibrate scoring weights as if model-selected"
   },
   "lanes": {
     "consumer": {
@@ -31,7 +38,7 @@
       "holdUnused": true
     }
   },
-  "nextId": 7,
+  "nextId": 8,
   "campaigns": [
     {
       "id": "WAL-2026-001",
@@ -140,7 +147,36 @@
       "launchedDate": null,
       "plannedBudget": 150,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "superseded",
+      "supersededDate": "2026-08-13",
+      "supersededReason": "SUPERSEDED by WAL-2026-007: the standard $150 controlled-test proposal was generated under pre-round-7 scoring (58/D, inflated by single-event tier saturation + proxy audience points). Corrected score 35/D = WATCH; replaced by an explicit operational-validation override per red-team round-7 ruling."
+    },
+    {
+      "id": "WAL-2026-007",
+      "platform": "adwerx",
+      "name": "Wallace - resources commercial (OPERATIONAL-VALIDATION PILOT)",
+      "type": "consumer-test",
+      "destination": "https://wallacetn.com/resources/commercial/",
+      "utmCampaign": "commercial",
+      "utmId": "WAL-2026-007",
+      "adwerxCampaignId": null,
+      "baselineRef": "baselines/WAL-2026-007.md",
+      "audience": "Targeting local businesses and investors in Knoxville, TN.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-13",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 500,
+      "actualBudget": null,
+      "status": "proposed",
+      "campaignMode": "operational_validation",
+      "modelRecommendation": "WATCH",
+      "manualOverride": true,
+      "overrideReason": "Validate Adwerx delivery, reporting, attribution and verdict chain end-to-end. NOT a model-funded media recommendation (corrected score 35/100, Evidence D). Budget = actual Adwerx checkout minimum, capped at maxBudget. Fallback: luxury-properties (WAL-2026-001) only if commercial's checkout economics are materially worse.",
+      "approvedBy": "Howard (conditional GO per red-team round-7 - final approval after Adwerx checkout data recorded in preflight)",
+      "maxBudget": 500,
+      "excludedFromScoreCalibration": true
     }
   ]
 }

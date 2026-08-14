@@ -4,6 +4,20 @@ Complete one copy of this checklist per pilot. Every box must be checked and the
 values recorded in `data/registry.json` before the campaign is set live in Adwerx.
 Pilot 2 may only launch after Pilot 1's **operational chain** section passes (~3–7 days).
 
+## 0. Pilot-1 decision sequence (red-team round-7, 2026-08-13)
+1. Inspect Adwerx checkout — **no purchase** — for BOTH candidates: `/resources/commercial`
+   (WAL-2026-007, provisional Pilot 1) and `/resources/luxury-properties` (WAL-2026-001, fallback).
+   Record for each: minimum package price, promised impressions, channels, audience size,
+   expected frequency.
+2. Select commercial if its package has acceptable delivery, coverage and cost; use luxury only
+   if commercial's checkout economics are materially worse.
+3. The pilot is an `operational_validation` override (model verdict: WATCH). Cap: $500/mo.
+   Launch ONE campaign only. Its outcome is excluded from score calibration and must never be
+   presented as a model recommendation.
+4. Verify the complete operational chain (section 4) before considering Pilot 2.
+   Success = plumbing (IDs, impressions, spend, UTM, attribution, snapshot, day-7 verdict) —
+   marketing ROI is secondary during this test.
+
 ## 1. Fair-housing compliance (broker/compliance sign-off required)
 - [ ] No demographic or protected-class targeting (race, color, religion, sex, familial status, national origin, disability) and no obvious proxies for them
 - [ ] Copy contains no protected-class implications (e.g. "perfect for young families", "safe neighborhood", "exclusive community")
