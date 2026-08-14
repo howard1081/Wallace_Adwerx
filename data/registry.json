@@ -18,9 +18,84 @@
     "status": "proposed | approved | launched | paused | stopped"
   },
   "lanes": {
-    "consumer": { "cap": 1500, "defaultMaxCampaigns": 3 },
-    "careers": { "cap": 500, "holdUnused": true }
+    "consumer": {
+      "cap": 1500,
+      "defaultMaxCampaigns": 3
+    },
+    "careers": {
+      "cap": 500,
+      "holdUnused": true
+    }
   },
-  "nextId": 1,
-  "campaigns": []
+  "nextId": 5,
+  "campaigns": [
+    {
+      "id": "WAL-2026-001",
+      "platform": "adwerx",
+      "name": "Wallace - resources luxury-properties",
+      "type": "consumer-area",
+      "destination": "https://wallacetn.com/resources/luxury-properties/",
+      "utmCampaign": "luxury-properties",
+      "audience": "Retarget previous visitors interested in luxury homes in Knoxville.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 500,
+      "actualBudget": null,
+      "status": "proposed"
+    },
+    {
+      "id": "WAL-2026-002",
+      "platform": "adwerx",
+      "name": "Wallace - realestate agent vickie-bailey",
+      "type": "consumer-area",
+      "destination": "https://wallacetn.com/realestate/agent/vickie-bailey/",
+      "utmCampaign": "vickie-bailey",
+      "audience": "Retarget visitors who interacted with Vickie Bailey's profile.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 500,
+      "actualBudget": null,
+      "status": "proposed"
+    },
+    {
+      "id": "WAL-2026-003",
+      "platform": "adwerx",
+      "name": "Wallace - by-town louisville-tn",
+      "type": "consumer-area",
+      "destination": "https://wallacetn.com/by-town/louisville-tn/",
+      "utmCampaign": "louisville-tn",
+      "audience": "Target residents and potential buyers in Louisville, TN.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 500,
+      "actualBudget": null,
+      "status": "proposed"
+    },
+    {
+      "id": "WAL-2026-004",
+      "platform": "adwerx",
+      "name": "Wallace Careers - Recruiting Prospecting",
+      "type": "careers-prospecting",
+      "destination": "https://wallacetn.com/careers",
+      "utmCampaign": "careers-prospecting",
+      "audience": "Target aspiring real estate agents in East Tennessee.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 200,
+      "actualBudget": null,
+      "status": "proposed"
+    }
+  ]
 }
