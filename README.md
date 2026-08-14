@@ -6,7 +6,7 @@
 <a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
 </p>
 
-![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-0-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-3-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%24350%2Fmo-93a2b5?style=flat-square)
+![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-0-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-2-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%24500%2Fmo-93a2b5?style=flat-square)
 
 > &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-14-brief.md), review each proposal, and when you launch one in Adwerx mark it `launched` in [data/registry.json](data/registry.json) (that's how the Friday scorecard knows it exists and how old it is).
 
