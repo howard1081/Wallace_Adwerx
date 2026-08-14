@@ -6,7 +6,7 @@
 <a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
 </p>
 
-![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-7-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-2-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%24350%2Fmo-93a2b5?style=flat-square)
+![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-7-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-1-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%24700%2Fmo-93a2b5?style=flat-square)
 
 > &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-14-brief.md), review each proposal, and when you launch one in Adwerx mark it `launched` in [data/registry.json](data/registry.json) (that's how the Friday scorecard knows it exists and how old it is).
 
@@ -17,11 +17,11 @@
 | Campaign | Opportunity | Confidence | Action | Suggested spend |
 |---|---|---|---|---|
 | &#11088; [Wallace - by-town louisville-tn](briefs/2026-08-14-brief.md) | **69**/100 | C | START (controlled test) | **$150/mo** |
-| [Wallace - by-town oneida-tn](briefs/2026-08-14-brief.md) | **69**/100 | C | BACKUP | backup |
-| [Wallace - resources luxury-properties](briefs/2026-08-14-brief.md) | **67**/100 | C | PENDING (WAL-2026-001) | backup |
+| [Wallace - by-town oneida-tn](briefs/2026-08-14-brief.md) | **69**/100 | C | START (controlled test) | **$150/mo** |
+| [Wallace - resources luxury-properties](briefs/2026-08-14-brief.md) | **67**/100 | D | PENDING (WAL-2026-001) | backup |
 | [Wallace - by-town powell-tn](briefs/2026-08-14-brief.md) | **63**/100 | C | BACKUP | backup |
 | [Wallace - by-town greenback-tn](briefs/2026-08-14-brief.md) | **61**/100 | C | BACKUP | backup |
-| [Wallace - resources commercial](briefs/2026-08-14-brief.md) | **59**/100 | C | BACKUP | backup |
+| [Wallace - resources commercial](briefs/2026-08-14-brief.md) | **59**/100 | D | BACKUP | backup |
 | [Wallace - lenoir-city-tn houses](briefs/2026-08-14-brief.md) | **55**/100 | C | BACKUP | backup |
 
 ### How this works (V2)
