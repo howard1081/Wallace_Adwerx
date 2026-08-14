@@ -130,7 +130,8 @@
       "launchedDate": null,
       "plannedBudget": 150,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "superseded",
+      "supersededReason": "SUPERSEDED per red-team round-6/7 ruling: zero on-page QAV (propensity was prior-driven), tiny traffic, already near top organic position; removed from the Pilot-1 checkout set. Corrected score ~30/C = WATCH. Budget reservation released."
     },
     {
       "id": "WAL-2026-006",
