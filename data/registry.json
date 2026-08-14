@@ -7,6 +7,9 @@
     "type": "consumer-area | consumer-search | careers-prospecting | careers-retargeting",
     "destination": "landing page URL (no UTM)",
     "utmCampaign": "exact utm_campaign value; GA4 join key",
+    "utmId": "exact utm_id value (same as id); GA4 sessionManualCampaignId join key",
+    "adwerxCampaignId": "the NATIVE campaign ID assigned by Adwerx at launch (recorded during preflight); exact non-fuzzy join path for Adwerx reports; null until launched",
+    "baselineRef": "path to the immutable pre-launch baseline snapshot (baselines/<id>.md), committed before approval; null until baselined",
     "audience": "targeting description (geo/zips/audience)",
     "creativeVersion": "v1, v2... bump when creative rotates",
     "primaryGoal": "the GA4 event that counts as the campaign's qualified outcome",
@@ -62,7 +65,9 @@
       "launchedDate": null,
       "plannedBudget": 500,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "rejected",
+      "rejectedDate": "2026-08-14",
+      "rejectedReason": "DESTINATION-CLASS GATE: individual agent profile - corporate consumer budget may not fund personal promotion. Eligible again only under an agent-spotlight lane (eligibility, rotation, consent, funding rules) or as agent-funded."
     },
     {
       "id": "WAL-2026-003",

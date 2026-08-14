@@ -13,6 +13,12 @@ Pilot 2 may only launch after Pilot 1's **operational chain** section passes (~3
 
 Geo rationale: _______________________________________________
 
+## 1b. Immutable pre-launch baseline (before approval)
+- [ ] `baselines/<WAL-id>.md` snapshot committed (timestamp, reporting windows, destination, sessions, QAV low/high, per-tier event-sessions, GSC impressions/clicks/position/momentum, Opportunity Score, Evidence Confidence + Channel Readiness, creative version/hash, audience/geo, planned impressions, registry ID + exact UTM) and `baselineRef` set in the registry. Day-30/60/90 conclusions compare against THIS file, never a re-computed baseline.
+
+## 1c. Destination class (corporate lane)
+- [ ] Destination is brokerage-owned (area/community, brokerage services, lifestyle, search hub). Individual agent/team profiles are DENIED for corporate consumer budget unless run under a documented agent-spotlight lane or agent-funded.
+
 ## 2. Branding, destination & creative
 - [ ] Destination page is public, loads correctly (desktop + mobile), and is relevant to the ad
 - [ ] Ad creative and destination use consistent Wallace branding (logo, colors, name)
@@ -21,7 +27,7 @@ Geo rationale: _______________________________________________
 
 ## 3. Campaign setup in Adwerx
 - [ ] Campaign uses the EXACT destination URL from the brief, including all UTM parameters (`utm_id` = WAL ID, `utm_campaign` = slug, `utm_source=adwerx`)
-- [ ] Adwerx campaign ID recorded: ______________
+- [ ] NATIVE Adwerx campaign ID (assigned by Adwerx, NOT the WAL id) recorded in registry `adwerxCampaignId`: ______________
 - [ ] Adwerx approval status confirmed (network accepted the ad): yes / no
 - [ ] Planned/promised impressions per month recorded: ______________
 - [ ] Expected frequency recorded: ______________
