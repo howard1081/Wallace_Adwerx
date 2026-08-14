@@ -22,10 +22,10 @@
 | [Wallace - by-town louisville-tn](briefs/2026-08-14-brief.md) | **73**/100 | Zip-code / audience targeting | **$270/mo** |
 | [Wallace - listing 1254446 1505-duncan-road-knoxville-tn-37919](briefs/2026-08-14-brief.md) | **69**/100 | Zip-code / audience targeting | **$250/mo** |
 | [Wallace - homepage](briefs/2026-08-14-brief.md) | **68**/100 | Retargeting (site visitors) | backup |
+| [Wallace - by-town powell-tn](briefs/2026-08-14-brief.md) | **67**/100 | Zip-code / audience targeting | backup |
 | [Wallace - by-town oneida-tn](briefs/2026-08-14-brief.md) | **67**/100 | Zip-code / audience targeting | backup |
 | [Wallace - listings saved-search 817651](briefs/2026-08-14-brief.md) | **66**/100 | Zip-code / audience targeting | backup |
 | [Wallace - realestate agent vickie-bailey](briefs/2026-08-14-brief.md) | **64**/100 | Zip-code / audience targeting | backup |
-| [Wallace - by-town powell-tn](briefs/2026-08-14-brief.md) | **63**/100 | Zip-code / audience targeting | backup |
 | _...and 5 more_ | | |
 
 ### How this works
