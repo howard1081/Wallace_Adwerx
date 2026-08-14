@@ -18,6 +18,10 @@
 |---|---|---|---|---|
 | _no new proposals this week_ | | | | |
 
+### Competitive baseline
+
+Wallace ranks for **~7.7K organic keywords** (~41.5K est. visits/mo) — roughly **10× the nearest local competitor**. Full SEMrush snapshot vs the competitor-watch field: [docs/competitive-baseline-2026-08.md](docs/competitive-baseline-2026-08.md).
+
 ### How this works (V2)
 
 1. Every **Tuesday** the engine scans GSC + GA4 for pages with real demand and quality-adjusted conversion activity (QAV - weighted actions, not raw "leads").
