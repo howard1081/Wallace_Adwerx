@@ -1,0 +1,26 @@
+{
+  "_doc": "Authoritative Adwerx campaign registry. The Friday tracker only tracks campaigns listed here with status launched/paused/stopped. Kate (or Howard) flips status to 'launched' and sets launchedDate when a campaign actually goes live in Adwerx. The weekly engine adds 'proposed' entries; humans promote them to 'approved' then 'launched'.",
+  "_schema": {
+    "id": "permanent campaign id, e.g. WAL-2026-001",
+    "platform": "always 'adwerx'",
+    "name": "human-readable campaign name",
+    "type": "consumer-area | consumer-search | careers-prospecting | careers-retargeting",
+    "destination": "landing page URL (no UTM)",
+    "utmCampaign": "exact utm_campaign value; GA4 join key",
+    "audience": "targeting description (geo/zips/audience)",
+    "creativeVersion": "v1, v2... bump when creative rotates",
+    "primaryGoal": "the GA4 event that counts as the campaign's qualified outcome",
+    "proposedDate": "YYYY-MM-DD",
+    "approvedDate": "YYYY-MM-DD or null",
+    "launchedDate": "YYYY-MM-DD or null (real launch date; tracker age uses this)",
+    "plannedBudget": "USD/month recommended",
+    "actualBudget": "USD/month actually set in Adwerx, or null",
+    "status": "proposed | approved | launched | paused | stopped"
+  },
+  "lanes": {
+    "consumer": { "cap": 1500, "defaultMaxCampaigns": 3 },
+    "careers": { "cap": 500, "holdUnused": true }
+  },
+  "nextId": 1,
+  "campaigns": []
+}
