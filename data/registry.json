@@ -15,7 +15,8 @@
     "launchedDate": "YYYY-MM-DD or null (real launch date; tracker age uses this)",
     "plannedBudget": "USD/month recommended",
     "actualBudget": "USD/month actually set in Adwerx, or null",
-    "status": "proposed | approved | launched | paused | stopped"
+    "status": "proposed | approved | launched | paused | stopped | expired | rejected | superseded",
+    "lifecycle": "proposed reserves budget 7 days, revalidated weekly (renew or expire); approved gets 14-day launch deadline then APPROVAL STALE; rejected/skipped/superseded are permanent history"
   },
   "lanes": {
     "consumer": {
@@ -78,7 +79,9 @@
       "launchedDate": null,
       "plannedBudget": 500,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "superseded",
+      "supersededDate": "2026-08-13",
+      "supersededReason": "SUPERSEDED - V2.1 PILOT POLICY: max two staggered pilots per red-team round-3 review; budget released, remains a ranked backup in the weekly brief"
     },
     {
       "id": "WAL-2026-004",
