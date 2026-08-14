@@ -6,32 +6,32 @@
 <a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
 </p>
 
-![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/recommendations-14-39a0a5?style=flat-square) ![](https://img.shields.io/badge/rejected-1-93a2b5?style=flat-square) ![](https://img.shields.io/badge/budget%20cap-%241%2C500%2Fmo-c9d4d1?style=flat-square)
+![](https://img.shields.io/badge/updated-2026--08--14-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-10-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-0-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%240%2Fmo-93a2b5?style=flat-square)
 
-> &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-14-brief.md) and tick each campaign's checkboxes (Reviewed / Launched / Skipped) so everyone can see what's been handled.
+> &#128308; **New this week** &mdash; open the [latest brief](briefs/2026-08-14-brief.md), review each proposal, and when you launch one in Adwerx mark it `launched` in [data/registry.json](data/registry.json) (that's how the Friday scorecard knows it exists and how old it is).
 
-![](https://img.shields.io/badge/careers%20lane-%24500%2Fmo%20reserved-39a0a5?style=flat-square) 4 recruiting campaign(s) in the [latest brief](briefs/2026-08-14-brief.md).
+![](https://img.shields.io/badge/careers%20lane-%24500%2Fmo%20reserved-39a0a5?style=flat-square) 1 recruiting campaign(s) in the [latest brief](briefs/2026-08-14-brief.md).
 
 ### This week at a glance
 
-| Campaign | Score | Type | Suggested spend |
-|---|---|---|---|
-| &#11088; [Wallace - by-town tellico-plains-tn](briefs/2026-08-14-brief.md) | **91**/100 | Retargeting (site visitors) | **$340/mo** |
-| [Wallace - resources commercial](briefs/2026-08-14-brief.md) | **90**/100 | Retargeting (site visitors) | **$340/mo** |
-| [Wallace - by-town knoxville-tn](briefs/2026-08-14-brief.md) | **74**/100 | Retargeting (site visitors) | **$280/mo** |
-| [Wallace - by-town louisville-tn](briefs/2026-08-14-brief.md) | **73**/100 | Zip-code / audience targeting | **$280/mo** |
-| [Wallace - homepage](briefs/2026-08-14-brief.md) | **68**/100 | Retargeting (site visitors) | **$260/mo** |
-| [Wallace - by-town powell-tn](briefs/2026-08-14-brief.md) | **67**/100 | Zip-code / audience targeting | backup |
-| [Wallace - by-town oneida-tn](briefs/2026-08-14-brief.md) | **67**/100 | Zip-code / audience targeting | backup |
-| [Wallace - realestate agent vickie-bailey](briefs/2026-08-14-brief.md) | **64**/100 | Zip-code / audience targeting | backup |
-| [Wallace - homes-for-sale knoxville](briefs/2026-08-14-brief.md) | **63**/100 | Zip-code / audience targeting | backup |
-| [Wallace - by-town greenback-tn](briefs/2026-08-14-brief.md) | **62**/100 | Zip-code / audience targeting | backup |
-| _...and 4 more_ | | |
+| Campaign | Opportunity | Confidence | Action | Suggested spend |
+|---|---|---|---|---|
+| &#11088; [Wallace - resources luxury-properties](briefs/2026-08-14-brief.md) | **80**/100 | A | START | **$500/mo** |
+| [Wallace - realestate agent vickie-bailey](briefs/2026-08-14-brief.md) | **71**/100 | A | START | **$500/mo** |
+| [Wallace - by-town louisville-tn](briefs/2026-08-14-brief.md) | **70**/100 | A | START | **$500/mo** |
+| [Wallace - by-town oneida-tn](briefs/2026-08-14-brief.md) | **70**/100 | A | BACKUP | backup |
+| [Wallace - by-town powell-tn](briefs/2026-08-14-brief.md) | **63**/100 | A | BACKUP | backup |
+| [Wallace - by-town greenback-tn](briefs/2026-08-14-brief.md) | **61**/100 | A | BACKUP | backup |
+| [Wallace - homepage](briefs/2026-08-14-brief.md) | **61**/100 | B | BACKUP | backup |
+| [Wallace - resources commercial](briefs/2026-08-14-brief.md) | **61**/100 | B | BACKUP | backup |
+| [Wallace - lenoir-city-tn houses](briefs/2026-08-14-brief.md) | **56**/100 | A | BACKUP | backup |
+| [Wallace - gatlinburg-tn condos](briefs/2026-08-14-brief.md) | **55**/100 | A | BACKUP | backup |
 
-### How this works
+### How this works (V2)
 
-1. Every **Tuesday** the engine scans GSC + GA4 (+ SEMrush) for pages gaining traction or already converting.
-2. Each candidate passes a **7-gate vetting** (organic overlap, economics, page health, conversion proof, demand, history, budget fit).
-3. Survivors become **Adwerx-ready briefs** with copy, image ideas, targeting, and a paste-ready tracking link.
-4. Every **Friday** the scorecard grades live campaigns from GA4 with day-30/60/90 checkpoints.
-5. **Nothing launches automatically** &mdash; a human approves every campaign and all spend.
+1. Every **Tuesday** the engine scans GSC + GA4 for pages with real demand and quality-adjusted conversion activity (QAV - weighted actions, not raw "leads").
+2. Listing-page interest counts as **area demand evidence** - it never masquerades as an area page's own conversion proof.
+3. Candidates get an **Opportunity Score (0-100)** and a separate **Confidence grade (A-D)**. Funding needs both. Missing data lowers confidence - it never earns neutral points.
+4. The **portfolio allocator** accounts for active campaigns first, funds at most 3 consumer campaigns, and holds unspent budget when evidence is weak.
+5. Every **Friday** the scorecard grades campaigns from the [registry](data/registry.json) - real launch dates, Adwerx only, with day-7/30/60/90 checkpoints and "insufficient data" as a legitimate verdict.
+6. **Nothing launches automatically** &mdash; a human approves every campaign and all spend.
