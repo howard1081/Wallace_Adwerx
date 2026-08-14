@@ -31,7 +31,7 @@
       "holdUnused": true
     }
   },
-  "nextId": 6,
+  "nextId": 7,
   "campaigns": [
     {
       "id": "WAL-2026-001",
@@ -116,6 +116,23 @@
       "destination": "https://wallacetn.com/by-town/oneida-tn/",
       "utmCampaign": "oneida-tn",
       "audience": "Focusing on home shoppers in Oneida, TN.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 150,
+      "actualBudget": null,
+      "status": "proposed"
+    },
+    {
+      "id": "WAL-2026-006",
+      "platform": "adwerx",
+      "name": "Wallace - resources commercial",
+      "type": "consumer-test",
+      "destination": "https://wallacetn.com/resources/commercial/",
+      "utmCampaign": "commercial",
+      "audience": "Targeting local businesses and investors in Knoxville, TN.",
       "creativeVersion": "v1",
       "primaryGoal": "Contact_Form",
       "proposedDate": "2026-08-14",
