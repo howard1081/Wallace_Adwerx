@@ -31,7 +31,7 @@
       "holdUnused": true
     }
   },
-  "nextId": 5,
+  "nextId": 6,
   "campaigns": [
     {
       "id": "WAL-2026-001",
@@ -102,6 +102,23 @@
       "approvedDate": null,
       "launchedDate": null,
       "plannedBudget": 200,
+      "actualBudget": null,
+      "status": "proposed"
+    },
+    {
+      "id": "WAL-2026-005",
+      "platform": "adwerx",
+      "name": "Wallace - by-town oneida-tn",
+      "type": "consumer-test",
+      "destination": "https://wallacetn.com/by-town/oneida-tn/",
+      "utmCampaign": "oneida-tn",
+      "audience": "Focusing on home shoppers in Oneida, TN.",
+      "creativeVersion": "v1",
+      "primaryGoal": "Contact_Form",
+      "proposedDate": "2026-08-14",
+      "approvedDate": null,
+      "launchedDate": null,
+      "plannedBudget": 150,
       "actualBudget": null,
       "status": "proposed"
     }
