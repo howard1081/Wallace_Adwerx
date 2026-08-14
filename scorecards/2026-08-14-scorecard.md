@@ -2,9 +2,9 @@
 
 # Campaign Scorecard &mdash; 2026-08-14
 
-![](https://img.shields.io/badge/campaigns-8-0a2240?style=flat-square) ![](https://img.shields.io/badge/mode-DRY%20RUN-c9d4d1?style=flat-square)
+![](https://img.shields.io/badge/campaigns%20tracked-0-0a2240?style=flat-square) ![](https://img.shields.io/badge/platform-Adwerx%20only-39a0a5?style=flat-square) ![](https://img.shields.io/badge/mode-DRY%20RUN-c9d4d1?style=flat-square)
 
-> Verdicts are recommendations only &mdash; no changes are made automatically. Checkpoints: day-30 = leading indicators, day-60 = cost vs peers, day-90 = double down / hold / bail.
+> Verdicts are recommendations only &mdash; no changes are made automatically. Checkpoints: day-7 = tracking/delivery QA, day-30 = leading indicators, day-60 = cost vs peers, day-90 = double down / hold / bail. Verdicts that need spend data say **INSUFFICIENT DATA** rather than guessing.
 
 <p align="center">
 <a href="../README.md"><img src="../assets/btn_dashboard.svg" width="32%" alt="Dashboard"></a>
@@ -14,29 +14,12 @@
 
 ---
 
-| Campaign | Sessions (28d) | Leads | Conv rate | Trend | Spend/mo | CPL | Checkpoint | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| **fb_\|_homes_over_$1_mill_-_prospecting**<br><sub>facebook / cpc</sub> | 1602 | 0 | 0% | -47% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **Homes Over $1 Mill - Prospecting (Display)**<br><sub>google / cpc</sub> | 711 | 141 | 19.8% | -38% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **Primary Search**<br><sub>google / cpc</sub> | 457 | 14 | 3.1% | -43% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **Call Ads**<br><sub>google / cpc</sub> | 106 | 1 | 0.9% | -40% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **(organic)**<br><sub>google / cpc</sub> | 38 | 0 | 0% | -52% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **primary_search**<br><sub>google / cpc</sub> | 8 | 0 | 0% | -33% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **(not set)**<br><sub>google / cpc</sub> | 2 | 0 | 0% | -33% | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-| **120250838525250283**<br><sub>fb / paid</sub> | 2 | 0 | 0% | n/a | &mdash; | &mdash; | ramp-up | ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) |
-
-### &#128203; What to do (Kate&#39;s action list)
-
-- **fb_\|_homes_over_$1_mill_-_prospecting** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (1602 sessions). Judge on day-30.
-- **Homes Over $1 Mill - Prospecting (Display)** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (711 sessions). Judge on day-30.
-- **Primary Search** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (457 sessions). Judge on day-30.
-- **Call Ads** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (106 sessions). Judge on day-30.
-- **(organic)** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (38 sessions). Judge on day-30.
-- **primary_search** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (8 sessions). Judge on day-30.
-- **(not set)** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (2 sessions). Judge on day-30.
-- **120250838525250283** &mdash; ![](https://img.shields.io/badge/verdict-ON%20TRACK-39a0a5?style=flat-square) Ramp-up looks normal (2 sessions). Judge on day-30.
+_No launched Adwerx campaigns in the registry yet. When one launches, set its status to `launched` (with the launch date) in [data/registry.json](../data/registry.json) and it appears here - even with zero traffic._
 
 **Notes**
 
-- Platform: Adwerx. Tracking via UTM links (utm_source=adwerx) on campaign destination URLs.
-- No Adwerx spend data yet - forward Adwerx receipt/report emails to wallacetn1936@gmail.com and cost-per-lead verdicts activate automatically.
+- V2 tracker: only campaigns registered as launched/paused in data/registry.json are graded. Campaign age uses the real launchedDate. Only utm_source=adwerx traffic counts.
+- QAV = quality-adjusted actions (Contact_Form/Listing_Conversion x1.0, Custom_Form x0.6, User_Registration x0.35, Click_To_Call x0.25) - raw event counts shown alongside.
+- Registry has no launched campaigns yet - when Kate launches one in Adwerx, set its status to "launched" with the launch date in data/registry.json and it appears here.
+- Non-Adwerx paid traffic seen in GA4 (NOT graded here): fb_|_homes_over_$1_mill_-_prospecting [facebook / cpc]; Homes Over $1 Mill - Prospecting (Display) [google / cpc]; Primary Search [google / cpc]; Call Ads [google / cpc]; (organic) [google / cpc].
+- No Adwerx spend data yet - forward Adwerx receipt/report emails to wallacetn1936@gmail.com; cost verdicts stay "insufficient data" until then.
