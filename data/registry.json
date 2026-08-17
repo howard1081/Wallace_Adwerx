@@ -57,7 +57,8 @@
       "launchedDate": null,
       "plannedBudget": 500,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "approved",
+      "approvedDate": "2026-08-17"
     },
     {
       "id": "WAL-2026-002",
