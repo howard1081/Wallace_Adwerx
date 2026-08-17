@@ -6,7 +6,7 @@
 <a href="briefs"><img src="assets/btn_archive.svg" width="32%" alt="Archive"></a>
 </p>
 
-![](https://img.shields.io/badge/updated-2026--08--17-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-0-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-0-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%241500%2Fmo-93a2b5?style=flat-square)
+![](https://img.shields.io/badge/updated-2026--08--17-0a2240?style=flat-square) ![](https://img.shields.io/badge/proposals-0-39a0a5?style=flat-square) ![](https://img.shields.io/badge/active%20campaigns-2-0a2240?style=flat-square) ![](https://img.shields.io/badge/held%20budget-%24500%2Fmo-93a2b5?style=flat-square)
 
 > &#128336; **Last updated:** Monday, Aug 17, 2026 &nbsp;&#8226;&nbsp; **Next brief:** Tuesday, Aug 18, 2026 (auto) &nbsp;&#8226;&nbsp; **Next scorecard:** Friday, Aug 21, 2026 (auto). Updates run on schedule whether or not anyone opens this page; unapproved proposals expire after 7 days.
 
@@ -15,9 +15,9 @@
 | | Consumer lane | Careers lane |
 |---|---|---|
 | Monthly cap | $1500/mo | $500/mo |
-| Reserved / committed | $0/mo | $200/mo |
+| Reserved / committed | $1000/mo | $200/mo |
 | Proposed new spend | $0/mo | &mdash; |
-| **Held (unspent, on purpose)** | **$1500/mo** | **$300/mo** |
+| **Held (unspent, on purpose)** | **$500/mo** | **$300/mo** |
 
 <sub>Held money is not a malfunction: the engine only spends when evidence earns it. Nothing launches without human approval.</sub>
 
