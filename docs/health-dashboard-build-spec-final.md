@@ -127,7 +127,10 @@ assert(metrics.every(m =>
 assert(noMissingValueWasCoercedToZero());
 assert(monthIsClosedAndSourceLagSatisfied());    // GSC windows end >= 3 days back
 assert(metricDefinitionsMatchContractVersion());
-assert(exactlyOneActiveEditionPerPeriod());
+assert(requiredMetrics.every(m =>
+  m.isPresent || m.state === "valid_unavailable"));   // omission caught, not just staleness
+assert(atMostOneActiveEditionPerPeriod());     // before promotion (new month has zero)
+assert(exactlyOneActiveEditionPerPeriod());    // after promotion
 assert(noDuplicateEditionWithSameContentHash());
 assert(unauthenticatedFetchContainsNoDashboardData());
 assert(archiveAndDataRoutesRequireAuthentication());
@@ -192,7 +195,7 @@ Ships in this build:
 
 ## 11. Acceptance suite (launch-gating; edition #1 not live until 100% pass)
 
-**Authentication (built first; tests 1–5 run with a temporary 60-second token):**
+**Authentication (built first; expiry tests use a fake/injected clock — production TTL stays exactly 1,800 seconds and is never changed for testing):**
 1. Missing, altered, expired, or wrong-audience tokens → zero dashboard data or dashboard-derived content (generic 401 JSON error only).
 2. Strict token validation: malformed base64url, extra segments, invalid `iat`/`jti`/`pwv`/`v`, oversized inputs, wrong MAC length, future-issued tokens, and lifetimes other than 1,800 seconds all fail with generic 401 and no dashboard content.
 3. Rate-limit determinism: 25 simultaneous wrong attempts from one trusted IP → exactly five 401s and twenty 429s; forged forwarding headers cannot change the bucket; state survives restart; a correct password succeeds after window expiry. After five failed attempts, the next request — tested once wrong and once correct — returns 429 before password comparison.
