@@ -108,12 +108,15 @@
       "audience": "Target aspiring real estate agents in East Tennessee.",
       "creativeVersion": "v1",
       "primaryGoal": "Contact_Form",
-      "proposedDate": "2026-08-14",
+      "proposedDate": "2026-08-17",
       "approvedDate": null,
       "launchedDate": null,
       "plannedBudget": 200,
       "actualBudget": null,
-      "status": "proposed"
+      "status": "proposed",
+      "renewals": [
+        "2026-08-14"
+      ]
     },
     {
       "id": "WAL-2026-005",
